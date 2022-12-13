@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add input {
+  margin: 10px;
+}
+
+.contacts {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-group-item img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.live-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.live-search-inp {
+  width: 400px;
+}

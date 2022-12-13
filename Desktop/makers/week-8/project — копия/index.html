@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="add-block">
+      <div class="container">
+        <h2>Контактная книжка</h2>
+        <div class="add">
+          <input
+            type="text"
+            class="inp-1 form-control"
+            placeholder="Введите имя"
+          />
+          <input
+            type="text"
+            class="inp-2 form-control"
+            placeholder="Введите фамилию"
+          />
+          <input
+            type="text"
+            class="inp-3 form-control"
+            placeholder="Введите номер"
+          />
+          <button class="btn-add btn btn-primary">Добавить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="contacts">
+      <div class="container">
+        <div class="live-search">
+          <input
+            class="live-search-inp form-control"
+            type="text"
+            placeholder="Живой поиск..."
+          />
+        </div>
+        <ul class="list-group"></ul>
+        <ul class="pagination"></ul>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
